@@ -14,7 +14,7 @@ from keras.preprocessing.image import ImageDataGenerator
 # There are two dataset PruneCXR and LongTailCXR
 
 # Read csv file containing training datadata - PruneCXR
-train_df = pd.read_csv("/Users/adriana/Documents/GitHub/AI_medical/nih_prune_train_dataset.csv")
+train_df = pd.read_csv("/Users/adriana/Documents/GitHub/AI_medical/train_set.csv")
 # Print first 5 rows
 print(f'There are {train_df.shape[0]} rows and {train_df.shape[1]} columns in this data frame')
 print(train_df.head())
